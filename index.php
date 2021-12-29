@@ -26,10 +26,10 @@
  </form>
  <?php
  // DB connection info
- $host = "localhost\sqlexpress";
- $user = "user name";
- $pwd = "password";
- $db = "registration";
+ $host = "yusuf-database-server.database.windows.net";
+ $user = "yusuf";
+ $pwd = "bardolia@8378";
+ $db = "yusuf sql database";
  // Connect to database.
  try {
  	$conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
