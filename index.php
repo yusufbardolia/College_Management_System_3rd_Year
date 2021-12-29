@@ -1,4 +1,4 @@
- <html>
+  <html>
  <head>
  <Title>Registration Form</Title>
  <style type="text/css">
