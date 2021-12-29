@@ -1,10 +1,10 @@
 <?php
  // DB connection info
+ // DB connection info
  $host = "localhost\sqlexpress";
  $user = "user name";
  $pwd = "password";
  $db = "registration";
- try{
  	$conn = new PDO( "sqlsrv:Server= $host ; Database = $db ", $user, $pwd);
  	$conn->setAttribute( PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION );
   catch(Exception $e){
@@ -60,3 +60,8 @@
  } else {
  	echo "<h3>No one is currently registered.</h3>";
  }
+// DB connection info
+$host = "tcp:<value of Server>";
+$user = "<value of User Name>";
+$pwd = "<your password>";
+$db = "<value of SQL Database>";
