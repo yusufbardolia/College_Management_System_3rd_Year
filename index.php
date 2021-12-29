@@ -17,6 +17,11 @@
  </head>
  <body>
  <h1>Register here!</h1>
+   // DB connection info
+$host = "tcp:<value of Server>";
+$user = "<value of User Name>";
+$pwd = "<your password>";
+$db = "<value of SQL Database>";
  <p>Fill in your name and email address, then click <strong>Submit</strong> to register.</p>
  <form method="post" action="index.php" enctype="multipart/form-data" >
        Name  <input type="text" name="name" id="name"/></br>
