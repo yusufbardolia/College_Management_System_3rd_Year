@@ -1,5 +1,5 @@
  <?php
- // DB connection info
+ // DB connection inf
  $host = "yusuf-database-server.database.windows.net";
  $user = "yusuf";
  $pwd = "bardolia@8378";
